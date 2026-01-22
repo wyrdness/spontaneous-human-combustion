@@ -1,0 +1,864 @@
+{
+  "category": "ANOMALY",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/spontaneous-human-combustion",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "spontaneous-human-combustion",
+    "name": "Spontaneous Human Combustion",
+    "aliases": [
+      {
+        "name": "SHC",
+        "meaning": "Acronym for Spontaneous Human Combustion"
+      },
+      {
+        "name": "Preternatural Combustibility",
+        "region": "Historical literature",
+        "meaning": "19th century term"
+      }
+    ],
+    "category": "ANOMALY",
+    "subcategory": "Physical Phenomenon",
+    "tags": [
+      "combustion",
+      "death",
+      "fire",
+      "mystery",
+      "forensic",
+      "global",
+      "debunked",
+      "wick-effect"
+    ],
+    "status": "disputed",
+    "description": {
+      "summary": "Alleged phenomenon where a human body burns without an external ignition source, often reducing the torso to ash while leaving extremities intact. Most cases have been explained by the 'wick effect' where clothing acts as a wick and body fat as fuel.",
+      "full": "Spontaneous Human Combustion (SHC) refers to reported cases where human bodies have allegedly burned without an apparent external ignition source. Characteristic features include severe burning of the torso, often reducing it to ash, while extremities (hands, feet, lower legs) remain relatively intact. The surrounding environment typically shows minimal fire damage. Documented cases span from the 1600s to present, though modern forensic science largely attributes these incidents to the 'wick effect' - a phenomenon where an external ignition source (cigarette, candle, fireplace) ignites clothing which then acts as a wick, slowly burning body fat as fuel. Victims are typically elderly, alone, near potential ignition sources, and often under the influence of alcohol. While the phenomenon captured public imagination through literature and media, scientific consensus holds that all documented cases can be explained through conventional fire dynamics."
+    },
+    "etymology": {
+      "origin": "The term emerged in medical and forensic literature in the 17th-18th centuries, gaining popular attention through Charles Dickens' novel 'Bleak House' (1852) where character Krook dies by spontaneous combustion.",
+      "meaning": "Spontaneous: occurring without apparent external cause; Combustion: the process of burning",
+      "first_use": "1600s (medical literature)"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ANOMALY",
+      "type": "Physical Phenomenon",
+      "subtype": "Alleged spontaneous combustion",
+      "variant": "Human combustion"
+    },
+    "related_phenomena": [
+      {
+        "id": "ball-lightning",
+        "name": "Ball Lightning",
+        "relationship": "proposed_cause",
+        "description": "Some theories suggest ball lightning as ignition source"
+      },
+      {
+        "id": "wick-effect",
+        "name": "Wick Effect",
+        "relationship": "scientific_explanation",
+        "description": "Accepted scientific mechanism explaining SHC cases"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "typical_pattern": [
+        {
+          "feature": "Torso destruction",
+          "description": "Upper body and torso reduced to ash and bone fragments",
+          "frequency": "always"
+        },
+        {
+          "feature": "Intact extremities",
+          "description": "Hands, feet, and lower legs often remain largely unburned",
+          "frequency": "common"
+        },
+        {
+          "feature": "Localized burning",
+          "description": "Minimal damage to surrounding environment, furniture, or walls",
+          "frequency": "common"
+        },
+        {
+          "feature": "Greasy residue",
+          "description": "Fatty deposits on walls and ceiling near body",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Low flame",
+          "description": "Slow, smoldering combustion rather than high flames",
+          "frequency": "common"
+        }
+      ],
+      "temperature_requirements": {
+        "bone_destruction": {
+          "value": 1650,
+          "unit": "celsius",
+          "note": "Temperature needed to reduce bones to ash"
+        },
+        "body_fat_combustion": {
+          "value": 250,
+          "unit": "celsius",
+          "note": "Body fat maintains combustion once ignited"
+        }
+      }
+    },
+    "victim_profile": {
+      "common_factors": [
+        {
+          "factor": "Age",
+          "description": "Typically elderly individuals",
+          "frequency": "very_common"
+        },
+        {
+          "factor": "Solitude",
+          "description": "Victims found alone, often deceased for days",
+          "frequency": "very_common"
+        },
+        {
+          "factor": "Alcohol consumption",
+          "description": "Many victims had consumed alcohol",
+          "frequency": "common"
+        },
+        {
+          "factor": "Mobility issues",
+          "description": "Limited ability to escape or extinguish fire",
+          "frequency": "common"
+        },
+        {
+          "factor": "Near ignition source",
+          "description": "Proximity to cigarettes, candles, fireplaces",
+          "frequency": "very_common"
+        },
+        {
+          "factor": "Obesity",
+          "description": "Higher body fat content provides more fuel",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    "burning_process": {
+      "duration": "Several hours to days",
+      "mechanism": "Wick effect (clothing as wick, body fat as fuel)",
+      "stages": [
+        "External ignition (cigarette, candle, fireplace)",
+        "Clothing ignites",
+        "Body fat begins to melt and saturate clothing",
+        "Slow, sustained combustion at relatively low temperature",
+        "Progressive consumption of body tissues",
+        "Extremities spared due to lower fat content"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Global phenomenon with cases reported worldwide. No geographic concentration pattern.",
+      "continents": ["Europe", "North America", "Asia", "Australia"],
+      "countries": ["United Kingdom", "United States", "Ireland", "France", "Italy", "Canada", "Australia"],
+      "note": "Distribution correlates with reporting infrastructure rather than actual geographic pattern"
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "1600s",
+        "circa": true,
+        "source": "Medical literature from 17th century"
+      },
+      "peak_reporting_periods": [
+        {
+          "period": "1800s-1900s",
+          "description": "Victorian era fascination, sensationalist press coverage"
+        },
+        {
+          "period": "1950s-1980s",
+          "description": "Modern media coverage and paranormal literature"
+        }
+      ],
+      "modern_status": "Rare reporting due to improved fire investigation techniques and public awareness"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Early medical and forensic literature attempting to explain unusual burning deaths. Popular imagination fueled by lack of fire science understanding.",
+      "earliest_accounts": "Documented in medical texts from the 1600s, with the case of Polonus Vorstius (1470) sometimes cited as earliest.",
+      "folklore_connections": "Connected to supernatural beliefs about divine punishment, demonic possession, and alcohol consumption dangers."
+    },
+    "timeline": [
+      {
+        "date": "1673",
+        "event": "Earliest detailed medical description",
+        "significance": "French account of woman reduced to ashes except skull and finger bones",
+        "source": "Medical literature"
+      },
+      {
+        "date": "1731",
+        "event": "Countess Cornelia Bandi case",
+        "significance": "Italian noblewoman found reduced to ashes, widely publicized case",
+        "location": "Cesena, Italy",
+        "source": "Giuseppe Bianchini's account"
+      },
+      {
+        "date": "1852",
+        "event": "Charles Dickens publishes 'Bleak House'",
+        "significance": "Character Krook dies by spontaneous combustion, bringing phenomenon to popular culture",
+        "source": "Bleak House novel"
+      },
+      {
+        "date": "1951-07-02",
+        "event": "Mary Reeser case",
+        "significance": "Most famous 20th century case; 67-year-old woman found reduced to ashes in St. Petersburg, Florida",
+        "location": "St. Petersburg, Florida, USA",
+        "source": "FBI investigation, police reports"
+      },
+      {
+        "date": "1964-11-08",
+        "event": "Helen Conway case",
+        "significance": "Pennsylvania woman found burned in her home, classic SHC pattern",
+        "location": "Upper Darby, Pennsylvania, USA",
+        "source": "Police and fire investigation reports"
+      },
+      {
+        "date": "1982-09-15",
+        "event": "Jeannie Saffin case",
+        "significance": "Witnessed by father; burst into flames while sitting in chair in London",
+        "location": "Edmonton, London, UK",
+        "source": "Witness testimony, medical records"
+      },
+      {
+        "date": "1998",
+        "event": "Dr. John DeHaan experiments",
+        "significance": "Forensic scientist demonstrates wick effect using pig carcasses, scientifically explaining SHC",
+        "source": "Published research in fire investigation journals"
+      },
+      {
+        "date": "2005",
+        "event": "BBC documentary experiments",
+        "significance": "'The Unexplained' demonstrates wick effect on television",
+        "source": "BBC documentary"
+      },
+      {
+        "date": "2010-12-22",
+        "event": "Michael Faherty case",
+        "significance": "Irish coroner officially records verdict as 'spontaneous combustion', last official use of term",
+        "location": "Galway, Ireland",
+        "source": "Coroner's inquest report"
+      }
+    ],
+    "modern_era": "Modern fire investigation techniques and understanding of the wick effect have largely demystified SHC cases. Forensic science now recognizes that all documented cases had potential external ignition sources. The phenomenon persists in popular culture but is considered explained by mainstream science."
+  },
+
+  "cases": {
+    "statistics": {
+      "total_documented": 200,
+      "scientifically_verified": 0,
+      "explained_by_wick_effect": "nearly all",
+      "date_range": {
+        "earliest": "1673",
+        "latest": "2010"
+      }
+    },
+    "notable": [
+      {
+        "id": "shc-case-1951-reeser",
+        "name": "Mary Reeser",
+        "date": {
+          "value": "1951-07-02",
+          "precision": "exact"
+        },
+        "location": {
+          "description": "St. Petersburg, Florida",
+          "country": "United States",
+          "region": "Florida",
+          "locality": "St. Petersburg"
+        },
+        "victim": {
+          "name": "Mary Hardy Reeser",
+          "age": 67,
+          "occupation": "Widow",
+          "conditions": ["Obesity", "Taking sedatives"]
+        },
+        "description": "Mary Reeser was found in her apartment reduced to a pile of ashes, with only her left foot (still wearing a slipper) and part of her backbone remaining. She had taken sleeping pills and was last seen sitting in an armchair smoking a cigarette. The chair was destroyed, but damage to the room was minimal. A small area of the floor was burned through, and the walls showed soot up to about four feet. Plastic wall outlets above that height had melted from heat. FBI investigation concluded she likely fell asleep smoking, igniting her nightgown and robe.",
+        "conditions": {
+          "time_of_day": "Night",
+          "ignition_source": "Cigarette (probable)",
+          "duration": "Estimated 6-8 hours",
+          "discovered": "Morning, July 2, 1951"
+        },
+        "evidence": [
+          "Left foot and slipper intact",
+          "Pile of ashes weighing about 10 pounds",
+          "Portion of skull shrunk to size of teacup",
+          "Minimal room damage except immediate vicinity",
+          "Greasy soot on walls",
+          "Melted plastic outlets"
+        ],
+        "investigation": {
+          "agencies": ["FBI", "Local police", "Fire department"],
+          "conclusion": "Accidental death due to wick effect; fell asleep smoking",
+          "alternative_theories": ["Ball lightning", "Spontaneous combustion"]
+        },
+        "credibility": {
+          "rating": "explained",
+          "factors": [
+            "Known ignition source (cigarette)",
+            "Sedatives would prevent escape",
+            "Classic wick effect pattern",
+            "FBI investigation conclusive"
+          ],
+          "scientific_consensus": "Accidental fire via wick effect"
+        },
+        "sources": [
+          "FBI Case File 62-81664",
+          "DeHaan, J. (1995). Kirk's Fire Investigation",
+          "St. Petersburg Times, July 1951"
+        ],
+        "featured": true
+      },
+      {
+        "id": "shc-case-1731-bandi",
+        "name": "Countess Cornelia Bandi",
+        "date": {
+          "value": "1731-03",
+          "precision": "approximate"
+        },
+        "location": {
+          "description": "Cesena, Italy",
+          "country": "Italy",
+          "region": "Emilia-Romagna",
+          "locality": "Cesena"
+        },
+        "victim": {
+          "name": "Countess Cornelia Zangheri Bandi",
+          "age": 62,
+          "occupation": "Noblewoman"
+        },
+        "description": "The Countess was found in her bedroom reduced to ashes except for her legs from the knees down and three fingers. The room showed minimal damage, but there was a greasy, sooty residue on the walls and furniture. She had reportedly felt heavy and dull the evening before. This case became one of the most widely cited early SHC incidents and was described in detail by Giuseppe Bianchini.",
+        "conditions": {
+          "time_of_day": "Night",
+          "ignition_source": "Oil lamp or candle (probable)",
+          "duration": "Unknown, discovered next morning"
+        },
+        "evidence": [
+          "Legs from knees down intact",
+          "Three fingers remaining",
+          "Pile of ashes",
+          "Greasy soot throughout room",
+          "Oil lamp nearby"
+        ],
+        "investigation": {
+          "conclusion": "Listed as spontaneous combustion in historical records",
+          "modern_analysis": "Likely wick effect from oil lamp or candle"
+        },
+        "credibility": {
+          "rating": "explained_retroactively",
+          "factors": [
+            "Oil lamp present as ignition source",
+            "Pattern consistent with wick effect",
+            "Historical account lacks forensic detail"
+          ],
+          "scientific_consensus": "Accidental fire, wick effect mechanism"
+        },
+        "sources": [
+          "Bianchini, G. (1731). Account in medical literature",
+          "Fort, C. (1931). Lo!",
+          "Nickell, J. & Fischer, J. (1984). Secrets of the Supernatural"
+        ],
+        "featured": true
+      },
+      {
+        "id": "shc-case-1982-saffin",
+        "name": "Jeannie Saffin",
+        "date": {
+          "value": "1982-09-15",
+          "precision": "exact"
+        },
+        "location": {
+          "description": "Edmonton, London",
+          "country": "United Kingdom",
+          "region": "London",
+          "locality": "Edmonton"
+        },
+        "victim": {
+          "name": "Jeannie Saffin",
+          "age": 61,
+          "occupation": "Unemployed",
+          "conditions": ["Mentally disabled"]
+        },
+        "description": "Jeannie was sitting in a chair in the kitchen with her father when he saw a flash of light and she was suddenly enveloped in flames. Her father and a neighbor attempted to extinguish the flames. She suffered severe burns and died eight days later in the hospital. No source of ignition was identified, though the kitchen had a gas cooker. This case is notable for having a witness to the ignition.",
+        "conditions": {
+          "time_of_day": "Afternoon",
+          "ignition_source": "Unknown, gas cooker nearby",
+          "duration": "Flash ignition, minutes of burning",
+          "witnessed": true
+        },
+        "evidence": [
+          "Witness testimony from father",
+          "Severe facial and upper body burns",
+          "Hands badly burned",
+          "No accelerants found",
+          "Gas cooker in room"
+        ],
+        "investigation": {
+          "agencies": ["London police", "Fire investigation"],
+          "conclusion": "Open verdict",
+          "theories": ["Static discharge from clothing", "Gas leak ignition", "Undetermined"]
+        },
+        "credibility": {
+          "rating": "unexplained_mechanism",
+          "factors": [
+            "Reliable witness (father)",
+            "Flash ignition unusual for wick effect",
+            "No clear ignition source found",
+            "Gas cooker present as possible source"
+          ],
+          "scientific_consensus": "Likely conventional ignition (static, gas leak) but mechanism unclear"
+        },
+        "sources": [
+          "Harrison, M. (1983). Fire From Heaven",
+          "Randles, J. & Hough, P. (1992). Spontaneous Human Combustion",
+          "London police reports"
+        ],
+        "featured": true
+      },
+      {
+        "id": "shc-case-2010-faherty",
+        "name": "Michael Faherty",
+        "date": {
+          "value": "2010-12-22",
+          "precision": "exact"
+        },
+        "location": {
+          "description": "Galway, Ireland",
+          "country": "Ireland",
+          "region": "Galway",
+          "locality": "Ballybane"
+        },
+        "victim": {
+          "name": "Michael Faherty",
+          "age": 76,
+          "occupation": "Retired"
+        },
+        "description": "Michael Faherty was found lying on his back near the fireplace in his living room, his body almost completely consumed by fire. The fire was confined to the room where his body was found and the ceiling directly above. Despite extensive investigation, no accelerants or other potential causes could be identified. Coroner Dr. Ciaran McLoughlin recorded a verdict of 'spontaneous combustion' - the first such official verdict in Ireland and one of the last anywhere.",
+        "conditions": {
+          "time_of_day": "Unknown, body discovered morning",
+          "ignition_source": "Not determined, fireplace nearby",
+          "duration": "Estimated several hours overnight"
+        },
+        "evidence": [
+          "Body severely burned near fireplace",
+          "Ceiling above body damaged",
+          "Rest of house undamaged",
+          "No accelerants detected",
+          "Fireplace in room"
+        ],
+        "investigation": {
+          "agencies": ["Gardaí (Irish police)", "Fire services", "Forensic team"],
+          "conclusion": "Coroner's verdict: spontaneous human combustion",
+          "modern_analysis": "Likely wick effect from fireplace ember"
+        },
+        "credibility": {
+          "rating": "likely_explained",
+          "factors": [
+            "Fireplace present as probable ignition source",
+            "Pattern consistent with wick effect",
+            "Coroner's verdict controversial among scientists",
+            "No truly 'spontaneous' mechanism identified"
+          ],
+          "scientific_consensus": "Accidental fire from fireplace, wick effect mechanism"
+        },
+        "sources": [
+          "Irish Independent, September 2011",
+          "Coroner's inquest report, Dr. Ciaran McLoughlin",
+          "BBC News, September 2011"
+        ],
+        "featured": true,
+        "notes": "Last official coroner's verdict of spontaneous combustion; controversial among fire investigators"
+      },
+      {
+        "id": "shc-case-1964-conway",
+        "name": "Helen Conway",
+        "date": {
+          "value": "1964-11-08",
+          "precision": "exact"
+        },
+        "location": {
+          "description": "Upper Darby, Pennsylvania",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "locality": "Upper Darby"
+        },
+        "victim": {
+          "name": "Helen Conway",
+          "age": 51,
+          "occupation": "Unknown"
+        },
+        "description": "Helen Conway was found in her bedroom, her body reduced to ashes in the area from her chest to her knees. Her legs below the knees and arms were intact. The bedroom showed minimal damage, with the most intense burning localized to the bed area. A candle was found near the bed.",
+        "conditions": {
+          "time_of_day": "Night",
+          "ignition_source": "Candle (probable)",
+          "duration": "Several hours"
+        },
+        "evidence": [
+          "Torso reduced to ashes",
+          "Extremities intact",
+          "Candle near bed",
+          "Minimal room damage",
+          "Localized intense burning"
+        ],
+        "investigation": {
+          "conclusion": "Listed as SHC in early reports",
+          "modern_analysis": "Wick effect from candle ignition"
+        },
+        "credibility": {
+          "rating": "explained",
+          "factors": [
+            "Candle present as ignition source",
+            "Classic wick effect pattern",
+            "Elderly victim alone"
+          ],
+          "scientific_consensus": "Accidental fire via wick effect"
+        },
+        "sources": [
+          "Arnold, L. (1995). Ablaze!",
+          "Fire investigation reports"
+        ],
+        "featured": false
+      }
+    ]
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "type": "body_remains",
+        "description": "Characteristic pattern: torso reduced to ash, extremities intact",
+        "status": "explained",
+        "analysis": "Wick effect produces exactly this pattern due to fat distribution"
+      },
+      {
+        "type": "environmental_damage",
+        "description": "Minimal damage to surroundings despite extreme body destruction",
+        "status": "explained",
+        "analysis": "Low, slow smoldering fire does not spread; heat rises, explaining ceiling damage"
+      },
+      {
+        "type": "greasy_residue",
+        "description": "Fatty deposits on walls and ceiling",
+        "status": "explained",
+        "analysis": "Vaporized body fat condenses on cooler surfaces"
+      }
+    ],
+    "experimental": [
+      {
+        "id": "dehaan-experiments",
+        "researcher": "Dr. John DeHaan",
+        "date": "1998",
+        "description": "Forensic scientist wrapped pig carcasses in fabric and ignited them to test wick effect theory",
+        "results": "Successfully reproduced SHC pattern: torso consumed, extremities intact, minimal environmental damage",
+        "significance": "Definitively demonstrated wick effect as mechanism for SHC cases",
+        "publication": "Kirk's Fire Investigation (5th ed.)"
+      },
+      {
+        "id": "bbc-documentary",
+        "organization": "BBC",
+        "date": "2005",
+        "description": "Television documentary recreated wick effect using pig carcass",
+        "results": "Reproduced classic SHC pattern in controlled environment",
+        "significance": "Made scientific explanation accessible to public",
+        "publication": "The Unexplained documentary series"
+      }
+    ]
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "True Spontaneous Combustion",
+        "description": "Body ignites internally without external ignition source",
+        "proponents": ["Historical medical literature", "Paranormal researchers"],
+        "evidence_cited": ["Apparent lack of ignition source in some cases", "Intensity of burning"],
+        "status": "rejected",
+        "debunking": "No mechanism known to science; all cases had potential external sources"
+      },
+      {
+        "name": "Ball Lightning",
+        "description": "Ball lightning enters room and ignites victim",
+        "proponents": ["Some fringe theorists"],
+        "evidence_cited": ["Flash of light in Saffin case", "Unexplained ignition"],
+        "status": "rejected",
+        "debunking": "Ball lightning extremely rare and poorly understood; no documented cases of it causing human combustion"
+      },
+      {
+        "name": "Divine Punishment",
+        "description": "Supernatural punishment for sin, particularly alcoholism",
+        "proponents": ["Historical religious interpretation"],
+        "evidence_cited": ["Correlation with alcohol consumption"],
+        "status": "rejected",
+        "debunking": "Religious interpretation without scientific basis; alcohol makes victims less able to escape fire"
+      }
+    ],
+    "pseudoscientific": [
+      {
+        "name": "Acetone Build-up",
+        "description": "Ketosis produces flammable acetone in body, leading to internal ignition",
+        "proponents": ["Some alternative medicine advocates"],
+        "evidence_cited": ["Acetone is flammable", "Ketosis can occur in elderly"],
+        "status": "rejected",
+        "debunking": "Acetone levels never reach concentrations that could ignite; no mechanism for ignition"
+      },
+      {
+        "name": "Static Electricity",
+        "description": "Static discharge ignites gases produced by body",
+        "proponents": ["Early SHC researchers"],
+        "evidence_cited": ["Flash ignition in some cases"],
+        "status": "possible_in_rare_cases",
+        "debunking": "Could potentially ignite clothing but does not explain the 'spontaneous' aspect; requires external fuel source"
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Wick Effect",
+        "description": "External ignition source (cigarette, candle, fireplace) ignites clothing, which acts as wick. Body fat melts, saturates clothing, and burns slowly at relatively low temperature for extended period. This explains intense localized burning, minimal environmental damage, and extremity preservation.",
+        "proponents": ["Dr. John DeHaan", "Forensic fire investigators", "Joe Nickell", "Benjamin Radford"],
+        "evidence_cited": [
+          "Experimental reproduction of SHC pattern",
+          "All documented cases had potential ignition sources",
+          "Victim profiles match wick effect conditions",
+          "Physics of fat combustion matches observations",
+          "Extremities have less fat, hence preserved"
+        ],
+        "mechanism": [
+          "1. External ignition source (cigarette, candle, fireplace ember)",
+          "2. Clothing ignites",
+          "3. Heat melts subcutaneous fat",
+          "4. Liquefied fat saturates clothing (wick)",
+          "5. Fat burns at ~250°C, sustaining combustion",
+          "6. Process continues for hours, consuming fat and tissue",
+          "7. Extremities (lower fat content) remain relatively intact",
+          "8. Slow, low flames don't spread to environment"
+        ],
+        "supporting_evidence": [
+          "DeHaan pig carcass experiments (1998)",
+          "BBC documentary reproduction (2005)",
+          "Forensic analysis of all major cases shows potential ignition sources",
+          "Victim demographics match: elderly, alone, impaired mobility, alcohol use",
+          "Temperature requirements match body fat combustion"
+        ],
+        "status": "accepted",
+        "scientific_consensus": "Wick effect explains all documented SHC cases"
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "No True SHC Cases Exist",
+        "description": "All cases attributed to SHC have conventional explanations involving external ignition sources and wick effect",
+        "proponents": ["Joe Nickell", "Benjamin Radford", "Skeptical Inquirer", "Most forensic scientists"],
+        "evidence_cited": [
+          "No case without potential external ignition source",
+          "Wick effect experimentally verified",
+          "Victim profiles consistent with accidental fire",
+          "No scientific mechanism for spontaneous ignition",
+          "Pattern of damage consistent with conventional fire dynamics"
+        ],
+        "conclusion": "SHC is a myth perpetuated by incomplete investigation and sensationalist reporting"
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Victorian era moral warnings about alcohol consumption",
+        "Divine punishment narratives in religious literature",
+        "Medieval fears of demonic possession"
+      ],
+      "beliefs": "Historically linked to moral failure, particularly excessive alcohol consumption. 19th century temperance movement used SHC as cautionary tale."
+    },
+    "popular_culture": {
+      "literature": [
+        {
+          "title": "Bleak House",
+          "author": "Charles Dickens",
+          "year": 1852,
+          "significance": "Character Krook dies by spontaneous combustion; brought phenomenon to mass public attention"
+        },
+        {
+          "title": "Ablaze!",
+          "author": "Larry Arnold",
+          "year": 1995,
+          "significance": "Pro-SHC book collecting case histories"
+        },
+        {
+          "title": "Spontaneous Human Combustion",
+          "author": "Jenny Randles & Peter Hough",
+          "year": 1992,
+          "significance": "Investigation of SHC cases"
+        }
+      ],
+      "film_tv": [
+        "The X-Files (Episode: 'Trevor', 1999)",
+        "South Park (Episode: 'Spontaneous Combustion', 1999)",
+        "Various paranormal documentary series",
+        "CSI and forensic TV dramas"
+      ],
+      "other": [
+        "Urban legends and internet folklore",
+        "Paranormal investigation shows",
+        "Medical curiosity exhibits"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Dr. John DeHaan",
+        "affiliation": "Fire-Ex Forensics, California Criminalist Institute",
+        "contribution": "Conducted definitive experiments demonstrating wick effect mechanism; author of Kirk's Fire Investigation",
+        "period": "1980s-present"
+      },
+      {
+        "name": "Joe Nickell",
+        "affiliation": "Committee for Skeptical Inquiry",
+        "contribution": "Investigated numerous SHC cases, demonstrated conventional explanations",
+        "period": "1980s-present"
+      },
+      {
+        "name": "Benjamin Radford",
+        "affiliation": "Skeptical Inquirer",
+        "contribution": "Scientific analysis and debunking of SHC claims",
+        "period": "1990s-present"
+      },
+      {
+        "name": "Dr. D.J. Gee",
+        "affiliation": "University of Leeds",
+        "contribution": "Early forensic analysis of alleged SHC cases",
+        "period": "1960s-1970s"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Committee for Skeptical Inquiry",
+        "url": "https://www.csicop.org",
+        "focus": "Scientific investigation and debunking of paranormal claims including SHC"
+      },
+      {
+        "name": "International Association of Arson Investigators",
+        "url": "https://www.firearson.com",
+        "focus": "Professional fire investigation, including unusual combustion cases"
+      }
+    ],
+    "key_findings": [
+      "All documented SHC cases had potential external ignition sources",
+      "Wick effect successfully reproduces all SHC characteristics",
+      "Victim demographics consistent with accidental fire scenarios",
+      "No scientifically viable mechanism for truly spontaneous combustion exists",
+      "Temperature requirements for bone destruction achievable via wick effect",
+      "Localized burning explained by slow, smoldering nature of fat combustion"
+    ]
+  },
+
+  "debunking": {
+    "common_misconceptions": [
+      {
+        "misconception": "Bodies burn from the inside out",
+        "reality": "All documented cases show external ignition; internal organs are often last to burn"
+      },
+      {
+        "misconception": "Extreme temperatures required are impossible from external fire",
+        "reality": "Wick effect sustains temperatures of 800-1000°C, sufficient for tissue and bone destruction"
+      },
+      {
+        "misconception": "No ignition source found in many cases",
+        "reality": "In every documented case, potential ignition sources were present (cigarettes, candles, fireplaces)"
+      },
+      {
+        "misconception": "Room damage should be more extensive",
+        "reality": "Slow, smoldering fires produce minimal environmental damage; heat rises, explaining ceiling damage while floor intact"
+      },
+      {
+        "misconception": "Extremities shouldn't survive such intense fire",
+        "reality": "Extremities have much less fat, so wick effect doesn't propagate to hands and feet"
+      }
+    ],
+    "why_extremities_remain": {
+      "explanation": "The wick effect depends on body fat as fuel. The torso contains the highest concentration of fat tissue. Arms and legs, particularly hands, feet, and lower legs, contain significantly less subcutaneous fat. Once the torso's fat is consumed, the fire self-extinguishes before reaching extremities. Additionally, extremities are often in contact with non-flammable surfaces (floor, chair arms) that help dissipate heat.",
+      "fat_distribution": {
+        "torso": "High - primary fuel source",
+        "upper_legs": "Moderate - partially consumed",
+        "lower_legs": "Low - often intact",
+        "feet": "Very low - almost always intact",
+        "hands": "Very low - often intact"
+      }
+    }
+  },
+
+  "sources": [
+    {
+      "id": "dehaan-2011",
+      "type": "book",
+      "title": "Kirk's Fire Investigation (7th Edition)",
+      "authors": ["John D. DeHaan", "David J. Icove"],
+      "publication": "Pearson",
+      "date": "2011",
+      "isbn": "978-0135082638"
+    },
+    {
+      "id": "nickell-fischer-1984",
+      "type": "book",
+      "title": "Secrets of the Supernatural",
+      "authors": ["Joe Nickell", "John F. Fischer"],
+      "publication": "Prometheus Books",
+      "date": "1984",
+      "isbn": "978-0879753542"
+    },
+    {
+      "id": "radford-2001",
+      "type": "article",
+      "title": "The Burning Question: What Is Spontaneous Human Combustion?",
+      "authors": ["Benjamin Radford"],
+      "publication": "Skeptical Inquirer",
+      "date": "2001",
+      "volume": "25.6"
+    },
+    {
+      "id": "arnold-1995",
+      "type": "book",
+      "title": "Ablaze! The Mysterious Fires of Spontaneous Human Combustion",
+      "authors": ["Larry E. Arnold"],
+      "publication": "M. Evans and Company",
+      "date": "1995",
+      "isbn": "978-0871318596",
+      "note": "Pro-SHC perspective, not scientifically rigorous"
+    },
+    {
+      "id": "randles-hough-1992",
+      "type": "book",
+      "title": "Spontaneous Human Combustion",
+      "authors": ["Jenny Randles", "Peter Hough"],
+      "publication": "Robert Hale",
+      "date": "1992",
+      "isbn": "978-0709050292"
+    }
+  ]
+}
