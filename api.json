@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/spontaneous-human-combustion",
     "maintainers": [
       {
@@ -16,111 +16,301 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "spontaneous-human-combustion",
     "name": "Spontaneous Human Combustion",
-    "aliases": [],
-    "category": "ANOMALY",
-    "subcategory": "| Description | Status |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "SHC", "meaning": "Common abbreviation" },
+      { "name": "Preternatural combustibility", "meaning": "Older medical literature term, 19th century" }
     ],
-    "status": "documented",
+    "category": "ANOMALY",
+    "subcategory": "Alleged anomalous combustion",
+    "tags": [
+      "fire",
+      "death",
+      "forensic",
+      "wick-effect",
+      "victorian",
+      "pseudoscience"
+    ],
+    "status": "debunked",
     "description": {
-      "summary": "Spontaneous Human Combustion (SHC) refers to reported cases where human bodies have allegedly burned without an apparent external ignition source.",
-      "full": "Spontaneous Human Combustion (SHC) refers to reported cases where human bodies have allegedly burned without an apparent external ignition source. Characteristic features include severe burning of the torso, often reducing it to ash, while extremities (hands, feet, lower legs) remain relatively intact. The surrounding environment typically shows minimal fire damage. Documented cases span from the 1600s to present, though modern forensic science largely attributes these incidents to the **wick effect** - a phenomenon where an external ignition source (cigarette, candle, fireplace) ignites clothing which then acts as a wick, slowly burning body fat as fuel. Victims are typically elderly, alone, near potential ignition sources, and often under the influence of alcohol. While the phenomenon captured public imagination through literature (Charles Dickens' *Bleak House*, 1852) and media, scientific consensus holds that **all documented cases can be explained through conventional fire dynamics**."
+      "summary": "Reported deaths in which a human body is severely burned, often reduced to ash, with little damage to the surroundings and no obvious external ignition source. Modern forensic science treats these cases as conventional fires propagated by the 'wick effect'.",
+      "full": "Spontaneous human combustion (SHC) is the popular name for a small set of reported death cases in which a body is severely or almost completely consumed by fire — frequently leaving the torso reduced to ash while the extremities and the immediate surroundings show comparatively little fire damage. The classic case profile, first noted in early 19th-century medical literature, describes an elderly, often alcoholic, often immobile victim found alone near a fireplace, candle, or smoking material. Mainstream forensic science, supported by experimental work and case-by-case review, attributes such deaths to the 'wick effect': a small external ignition source chars clothing and skin, releases subcutaneous body fat, and the fat-soaked clothing burns slowly like a candle wick for many hours, locally consuming the body while the temperature elsewhere in the room remains low. Investigators including Joe Nickell and John F. Fischer have argued that an external ignition source is identifiable in essentially every well-documented case once the published account is checked against the forensic record. SHC nonetheless retains a strong cultural footprint, anchored by Charles Dickens's depiction of Mr. Krook's death in Bleak House (1852–53) and a small number of widely-reprinted cases from the 18th to the 21st century."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "First proposed in English by Paul Rolli, FRS, in a 1746 article in the Philosophical Transactions of the Royal Society describing the death of Countess Cornelia Bandi of Cesena.",
+      "meaning": "'Spontaneous' (from a body's own internal cause, without external ignition) combined with 'human combustion'.",
+      "first_use": "1746 (Rolli, Philosophical Transactions)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ANOMALY",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Alleged physical anomaly",
+      "subtype": "Anomalous combustion / death phenomenon"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "wick-effect", "name": "Wick effect", "relationship": "related", "description": "Forensic mechanism by which clothing and body fat sustain a slow body fire from a small external ignition source" },
+      { "id": "pyrokinesis", "name": "Pyrokinesis", "relationship": "similar", "description": "Alleged psychic ability to ignite fires; sometimes invoked by paranormal theorists for SHC" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Severely burned torso", "description": "Trunk often reduced largely to ash, including bone, in cases where surrounding combustibles are barely scorched", "frequency": "always" },
+        { "feature": "Intact extremities", "description": "Lower legs, feet, and hands are frequently found relatively undamaged", "frequency": "common" },
+        { "feature": "Localized fire damage", "description": "Damage to the room is often limited to a halo of soot above the body and melting of nearby plastics or fabrics", "frequency": "common" },
+        { "feature": "Greasy soot residue", "description": "An oily, yellow-brown residue is frequently deposited on walls and ceiling near the victim", "frequency": "common" }
+      ],
+      "morphology": "The post-mortem state is described in forensic literature as consistent with prolonged, low-temperature smouldering combustion of the body fueled by the victim's own fat through clothing acting as a wick."
     },
     "abilities": [],
     "behavior": {
       "activity_period": "unknown",
       "disposition": "unknown",
-      "habitat_preference": []
+      "social_structure": "unknown",
+      "habitat_preference": ["domestic indoor settings (armchairs, beds, near hearths)"],
+      "patterns": [
+        "Victim typically elderly and living alone",
+        "Often a heavy smoker or with smoking materials nearby",
+        "Frequent association with alcohol consumption or reduced mobility",
+        "Most cases occur indoors with a small ignition source close at hand"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reported cases cluster in Europe (especially Britain, Ireland, France, Italy, Germany) and North America from the 17th century onward; isolated cases elsewhere.",
+      "continents": ["Europe", "North America"],
+      "countries": ["United Kingdom", "Ireland", "Italy", "France", "Germany", "United States"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1731",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Death of Countess Cornelia Bandi, Cesena, Italy (later reported in Rolli, 1746, Phil. Trans.)"
+      },
+      "peak_activity_periods": [
+        { "period": "1800–1860", "description": "Victorian medical and literary interest; SHC associated with chronic alcoholism in physician treatises" },
+        { "period": "1950–1985", "description": "Post-Reeser revival of public interest; foundational forensic re-examinations published" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Emerged from 18th-century European medical case literature attempting to classify unusual death scenes; reinforced in Victorian medicine by treatises associating heavy drinking with body flammability.",
+      "earliest_accounts": "Paul Rolli's 1746 paper to the Royal Society on the 1731 death of Countess Cornelia Bandi is generally cited as the first scholarly account in English.",
+      "folklore_connections": "Connected to broader European folkloric beliefs that vice, particularly drunkenness, could manifest as a literal inner fire."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1731", "event": "Countess Cornelia Zangari Bandi found dead in Cesena, Italy, partly reduced to ashes; the case is later treated as the prototypical SHC report", "source": "Rolli, P. (1746), Phil. Trans. R. Soc." },
+      { "date": "1746", "event": "Paul Rolli publishes 'A Letter ... concerning the Death of the Countess Cornelia Zangari & Bandi' in Philosophical Transactions of the Royal Society", "significance": "First English-language scientific paper on the phenomenon", "source": "Phil. Trans. R. Soc. 43" },
+      { "date": "1853", "event": "Charles Dickens publishes Bleak House in book form; the death of the rag-and-bone dealer Mr. Krook by spontaneous combustion is publicly defended by Dickens against critics including G. H. Lewes", "significance": "Anchors SHC firmly in popular Victorian imagination", "source": "Dickens, C., Bleak House" },
+      { "date": "1951-07-02", "event": "Death of Mary Reeser in St. Petersburg, Florida, USA; her body is found largely consumed in an armchair", "significance": "The most-cited 20th-century case; FBI investigation rejects SHC and points to a dropped cigarette", "source": "FBI investigation files; Nickell & Fischer (1984)" },
+      { "date": "1984", "event": "Joe Nickell and John F. Fischer publish a multi-part forensic survey of 30 alleged SHC cases (1725–1982) in Skeptical Inquirer / The Fire and Arson Investigator", "significance": "Argues that all reviewed cases have plausible external ignition sources", "source": "Nickell & Fischer, Fire and Arson Investigator (1984)" },
+      { "date": "2010-12-22", "event": "Michael Faherty, age 76, dies in his home in Ballybane, County Galway, Ireland; in 2011 coroner Ciaran McLoughlin records 'spontaneous combustion' as cause of death", "significance": "First case in modern times in which a coroner's verdict explicitly used the term SHC", "source": "BBC News (2011-09-23)" }
+    ],
+    "modern_era": "Mainstream forensic science treats SHC as a folk explanation. Experimental work (e.g. the 1998 BBC Q.E.D. wick-effect demonstration with a clothed pig carcass) has reproduced the characteristic burn pattern and limited room damage, supporting a conventional fire-dynamics explanation."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 200,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 150,
+      "debunked": 30,
+      "date_range": { "earliest": "1731", "latest": "2010" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "shc-1731-bandi",
+        "name": "Death of Countess Cornelia Bandi",
+        "date": { "value": "1731-04-04", "precision": "approximate" },
+        "location": {
+          "description": "Bandi family residence",
+          "country": "Italy",
+          "region": "Emilia-Romagna",
+          "locality": "Cesena"
+        },
+        "witnesses": { "count": 1, "types": ["Maidservant who discovered the body"] },
+        "description": "The 62-year-old countess was found in the morning by her maid as a heap of ashes on the bedroom floor with her legs, intact in stockings, and skull lying nearby. Surrounding furnishings were largely undamaged. The case was investigated and reported in Latin by Giuseppe Bianchini, then translated into English by Paul Rolli in 1746.",
+        "credibility": { "rating": "low", "factors": ["18th-century investigative methods", "Single-witness discovery"], "notes": "Foundational European case for the SHC literature." },
+        "sources": ["Rolli, P. (1746), Phil. Trans. R. Soc. 43"],
+        "featured": true
+      },
+      {
+        "id": "shc-1951-reeser",
+        "name": "Mary Reeser case",
+        "date": { "value": "1951-07-02", "precision": "exact" },
+        "location": {
+          "description": "Apartment at 1200 Cherry Street NE",
+          "country": "United States",
+          "region": "Florida",
+          "locality": "St. Petersburg"
+        },
+        "witnesses": { "count": 1, "types": ["Landlady (Pansy Carpenter)"] },
+        "description": "Mary Reeser, 67, was found the morning after taking sleeping pills and smoking a cigarette in her armchair. The chair, Reeser's torso, and one slipper-clad foot remained; the rest of her body was reduced to ash. The FBI investigation concluded a dropped cigarette ignited her clothing, with body fat sustaining combustion through the wick effect.",
+        "credibility": { "rating": "medium", "factors": ["Detailed FBI documentation", "Clear external ignition candidate"], "notes": "The most heavily-cited 20th-century SHC case." },
+        "sources": ["FBI Reading Room files", "Nickell & Fischer (1984)"],
+        "featured": true
+      },
+      {
+        "id": "shc-2010-faherty",
+        "name": "Michael Faherty case",
+        "date": { "value": "2010-12-22", "precision": "exact" },
+        "location": {
+          "description": "Home on Clareview Park, Ballybane",
+          "country": "Ireland",
+          "region": "County Galway",
+          "locality": "Galway"
+        },
+        "witnesses": { "count": 1, "types": ["Neighbour who alerted emergency services"] },
+        "description": "Faherty, 76, was found burned in his living room in front of an open fireplace; the fire damage was confined to his body and a small area of floor and ceiling above him. After investigation, West Galway coroner Ciaran McLoughlin returned a verdict of 'death by spontaneous combustion' in September 2011, the first such verdict in modern Irish or British inquest records.",
+        "credibility": { "rating": "medium", "factors": ["Open fireplace adjacent to body", "Coroner used the SHC label despite that ignition source"], "notes": "Frequently cited by both proponents and skeptics." },
+        "sources": ["BBC News (2011-09-23)", "Galway coroner's report (2011)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
-    "photographic": [],
+    "physical": [
+      {
+        "id": "shc-evidence-reeser-remains",
+        "type": "human remains",
+        "name": "Mary Reeser remains",
+        "date": "1951-07-02",
+        "description": "Skull, vertebra fragment, foot in slipper, and a quantity of greasy ash in a charred armchair, photographed and catalogued by St. Petersburg police and the FBI.",
+        "location": "St. Petersburg, Florida, USA",
+        "status": "verified",
+        "analysis": "FBI laboratory concluded the burning was consistent with prolonged, low-temperature combustion fueled by body fat after ignition by a dropped cigarette.",
+        "source": "FBI files; Nickell & Fischer (1984)"
+      }
+    ],
+    "photographic": [
+      {
+        "id": "shc-evidence-reeser-scene-photos",
+        "type": "scene photographs",
+        "name": "Reeser scene photographs",
+        "date": "1951-07-02",
+        "description": "Crime-scene and forensic photographs of the Reeser apartment, widely reprinted in subsequent SHC literature.",
+        "status": "verified",
+        "source": "FBI / St. Petersburg Police Department"
+      }
+    ],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "shc-evidence-rolli-1746",
+        "type": "scientific paper",
+        "name": "Rolli letter to the Royal Society",
+        "date": "1746",
+        "description": "Paul Rolli's translated and annotated letter on the death of Countess Bandi, published in Philosophical Transactions.",
+        "status": "verified",
+        "source": "Phil. Trans. R. Soc. 43 (1746)"
+      },
+      {
+        "id": "shc-evidence-nickell-fischer-1984",
+        "type": "investigation report",
+        "name": "Nickell and Fischer SHC case survey",
+        "date": "1984",
+        "description": "Multi-part forensic re-analysis of 30 historical SHC cases between 1725 and 1982.",
+        "status": "verified",
+        "analysis": "Concluded that an external ignition source is identifiable in essentially all reviewed cases.",
+        "source": "Nickell & Fischer, Fire and Arson Investigator (1984)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Pyrokinesis / poltergeist hypothesis",
+        "description": "SHC reflects an unexplained internal or psychic ignition mechanism, sometimes linked to poltergeist phenomena.",
+        "proponents": ["Michael Harrison"],
+        "evidence_cited": ["Apparent absence of an external flame in some accounts", "Anecdotal co-occurrence of unexplained domestic fires"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Wick effect",
+        "description": "A small external flame ignites clothing, which chars and splits the skin, releasing subcutaneous fat that soaks the cloth and burns at low temperature for hours, consuming the body while leaving the room largely intact.",
+        "proponents": ["John de Haan", "Joe Nickell", "John F. Fischer"],
+        "evidence_cited": ["1998 BBC Q.E.D. clothed-pig combustion experiment", "Reproduction of greasy soot deposition pattern", "Consistency with case scene photographs"]
+      },
+      {
+        "name": "Acetone / ketosis hypothesis",
+        "description": "Severe alcoholism or starvation produces elevated blood acetone, in principle slightly lowering ignition temperature; suggested as a contributing factor rather than a cause.",
+        "proponents": ["Brian J. Ford"],
+        "evidence_cited": ["Documented elevated acetone in alcoholic ketoacidosis"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Conventional fire with omitted ignition source",
+        "description": "Reported SHC cases are conventional house or armchair fires whose ignition source (cigarette, hearth ember, candle, electric heater) is either lost in the burn or omitted from the published narrative.",
+        "proponents": ["Joe Nickell", "John F. Fischer", "Benjamin Radford"],
+        "evidence_cited": ["Case-by-case re-investigation showing ignition sources in original reports", "Low room temperatures consistent with smouldering rather than flash combustion", "Pattern of elderly, immobile, and intoxicated victims near sources of fire"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
       "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "stories": [
+        "Death of Countess Cornelia Bandi (Cesena, 1731)",
+        "Mary Reeser case (St. Petersburg, 1951)",
+        "Mr. Krook's death in Dickens's Bleak House"
+      ],
+      "beliefs": "In Victorian Britain, SHC was widely understood as a moral consequence of heavy drinking; this interpretation underwrites Dickens's use of the device against the rag-and-bone dealer Mr. Krook."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Bleak House — Charles Dickens (1853)",
+        "Dead Souls — Nikolai Gogol (1842, the death of the landowner Korobochka's drunk peasant)",
+        "Jacob Faithful — Captain Frederick Marryat (1834)"
+      ],
+      "film_tv": [
+        "This Is Spinal Tap (1984) — running gag about exploding drummers",
+        "The X-Files episode 'Soft Light' (1995)",
+        "South Park episode 'Spontaneous Combustion' (1998)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Frequent feature article in tabloid and 'unexplained' magazine series of the 1970s–80s (Fortean Times, etc.)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Paul Rolli, FRS", "affiliation": "Royal Society of London", "contribution": "First English-language scientific paper on alleged SHC", "period": "1746" },
+      { "name": "Joe Nickell", "affiliation": "Committee for Skeptical Inquiry (CSI)", "contribution": "Forensic case review and skeptical analysis of SHC literature", "period": "1980s–present" },
+      { "name": "John F. Fischer", "affiliation": "Forensic analyst", "contribution": "Co-author of the 1984 multi-case SHC survey with Nickell", "period": "1980s" },
+      { "name": "John de Haan", "affiliation": "California Criminalistics Institute", "contribution": "Experimental fire-dynamics work on the wick effect with clothed pig carcasses", "period": "1990s" }
+    ],
+    "organizations": [
+      { "name": "Committee for Skeptical Inquiry", "url": "https://skepticalinquirer.org", "focus": "Skeptical investigation of paranormal claims, including long-running SHC coverage" }
+    ],
+    "ongoing_studies": "No active scientific research programmes treat SHC as a real anomaly; ongoing forensic interest concerns refining the understanding of the wick effect and other low-temperature body-fire dynamics."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-shc", "type": "website", "title": "Spontaneous human combustion", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Spontaneous_human_combustion", "accessed": "2026-05-07" },
+    { "id": "rolli-1746", "type": "paper", "title": "A Letter ... concerning the Death of the Countess Cornelia Zangari & Bandi of Cesena", "authors": ["Paul Rolli"], "publication": "Philosophical Transactions of the Royal Society", "date": "1746" },
+    { "id": "nickell-fischer-1984", "type": "article", "title": "Spontaneous Human Combustion (multi-part series)", "authors": ["Joe Nickell", "John F. Fischer"], "publication": "The Fire and Arson Investigator / Skeptical Inquirer", "date": "1984" },
+    { "id": "bbc-faherty-2011", "type": "news", "title": "Irishman died from spontaneous combustion, coroner rules", "publication": "BBC News", "date": "2011-09-23", "url": "https://www.bbc.com/news/uk-northern-ireland-14947110", "accessed": "2026-05-07" },
+    { "id": "dickens-bleakhouse", "type": "book", "title": "Bleak House", "authors": ["Charles Dickens"], "publication": "Bradbury & Evans", "date": "1853" }
+  ]
 }
